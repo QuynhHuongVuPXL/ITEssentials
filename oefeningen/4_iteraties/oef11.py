@@ -12,7 +12,7 @@ while personeelsnummer != 0:
     leeftijd = int(input("Geef jouw leeftijd in: "))
     brutoloon = int(input("Geef jouw brutoloon in: "))
 
-    if geslacht == 1 and brutoloon >= 1800:
+    if geslacht == 1 and (brutoloon >= 1800 or leeftijd > 34):
         man_ouder_dan_34_loon_meer_dan_1800 += 1
 
     if geslacht == 0 and leeftijd < 25:

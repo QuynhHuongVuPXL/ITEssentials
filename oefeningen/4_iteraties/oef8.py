@@ -23,8 +23,9 @@ print("Het percentage renners dat er langer dan een uur over doet is", percentag
 print("De snelste renner is de renner met inschrijfnummer", snelste_renner_nummer)
 
 uren = snelste_renner_tijd // 3600
+# kan ook uren = int(snelste_renner_tijd / 3600)
 minuten = snelste_renner_tijd // 60
+# minuten = int((snelste_renner_tijd%3600)/60)
 seconden = snelste_renner_tijd % 60
+# seconden = (snelste_renner_tijd%3600)%60
 print(uren, "u", minuten, "min", seconden, "sec")
-
-

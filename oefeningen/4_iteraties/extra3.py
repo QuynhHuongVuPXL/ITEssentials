@@ -27,3 +27,4 @@ while naam != "xx" and naam != "XX":
 percentage_geslaagd = geslaagd / totaal_deelnemers * 100
 print("Er slaagde", percentage_geslaagd, "% van de", totaal_deelnemers, "deelnemers")
 
+
