@@ -20,3 +20,11 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#
+# tekst1 = "a"
+# tekst2 = "GH"
+# deel1 = (tekst1[:4] + "****")[:4].upper()
+# deel2 = ("++++" + tekst2[-4:])[-4:].lower()
+# nieuwe_tekst = deel1 + deel2
+# print(nieuwe_tekst)

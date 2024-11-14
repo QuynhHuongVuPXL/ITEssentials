@@ -51,7 +51,7 @@ def main():
         totaal_prijs = (prijs_volwassen * aantal_volwassenen) + (prijs_kind * aantal_kinderen)
         sterren = print_sterren(aantal_sterren)
 
-        output += "{}{:<5} {:<5.2f} {:<5.2f} {:<5.2f}\n".format(hotelcode, sterren, prijs_volwassen, prijs_kind, totaal_prijs)
+        output += "{:<5}{:<5} {:<5.2f} {:<5.2f} {:<5.2f}\n".format(hotelcode, sterren, prijs_volwassen, prijs_kind, totaal_prijs)
 
         hotelcode = str(input("Geef een hotelcode: "))
 

@@ -1,5 +1,6 @@
 def main():
-    tekst = "zonder zo'n beep in"
+    resultaat = ""
+    tekst = "dit was eEn tEkSt"  # hier kan je ook al .upper doen, dan zit het onmiddelijk in de tekst variabele
     tekst_tT = tekst.upper().find("T")
 
     if tekst_tT == -1:

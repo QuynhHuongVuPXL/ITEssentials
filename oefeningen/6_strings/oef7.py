@@ -11,11 +11,15 @@ def encrypteer_tekst(tekst, getal):
 
 
 def main():
-    getal = 8
+    # getal = 8
     # getal = random.randint(2, 24)
     #
     # while getal % 2 != 0:
     #     getal = random.randint(2, 24)
+
+    getal = random.randint(2, 24)
+    if getal % 2 != 0:
+        getal += 1
 
     print(f"(met random getal {getal})")
 
